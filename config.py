@@ -10,11 +10,11 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "23825467"))
 API_HASH = getenv("API_HASH", "5e699f0de1f4ef172ef98cf3d4811395")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6144535438:AAHnRfgAUL8K20KpEFJanl04PX9y2kaWeKg")
+BOT_TOKEN = getenv("BOT_TOKEN", "6098364034:AAGIz5iQ4EIRdlRG3LcH5SVKWPSFPy5cKfI")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://tansel266:tansel1430@cluster0.nbhxbsl.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001907105547"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TrendyolMusic_bot")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001890228581"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "DamlaMusicBot")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5635928929").split()))
 
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/deryadenizzz/2222023
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/takipcii_satiss")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/takipcii_satiss")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BotKanalTR")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/BotKanalTR")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
