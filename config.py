@@ -10,10 +10,10 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "23825467"))
 API_HASH = getenv("API_HASH", "5e699f0de1f4ef172ef98cf3d4811395")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6098364034:AAFQnfMi_JfcPPZ1ZNlnDyebGgUKCXOfq8Y")
+BOT_TOKEN = getenv("BOT_TOKEN", "6098364034:AAFOXRzMgLvRdPezGoSryU1zcPu4sHM78P0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://tansel26:tansel1430@cluster0.lrplsud.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001890228581"))
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://tansel266:tansel1430@cluster0.nbhxbsl.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001949045877"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "DamlaMusicBot")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5635928929").split()))
