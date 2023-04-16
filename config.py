@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/61bbea696296d7b961018.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/ca0614da7cb74831d6d5c.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/61bbea696296d7b961018.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/ca0614da7cb74831d6d5c.jpg"
